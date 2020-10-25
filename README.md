@@ -17,5 +17,6 @@
 1. Run `git clone https://github.com/gugabguerra/node-express-mongoose-api-boilerplate.git` from wherever your prefer
 2. Change to cloned repo's directory `cd node-express-mongoose-api-boilerplate` or rename it first if you want
 3. Run `npm install` or `yarn` to retrieve and install node modules listed as dependencies
-4. Run `npm start-dev` or `yarn dev` to run your project as development env
-5. Open `http://localhost:3001` in your browser
+4. Edit `.env_example` file, enter your database settings and save as `.env`
+5. Run `npm start-dev` or `yarn dev` to run your project as development environment
+6. Open `http://localhost:3001` in your browser
