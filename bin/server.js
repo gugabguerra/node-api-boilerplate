@@ -17,7 +17,7 @@ class App {
 
   server() {
     this.express.listen(process.env.SRV_PORT, () =>
-      console.log(`Server running in ${process.env.NODE_ENV} mod on port ${process.env.SRV_PORT}`)
+      console.log(`Server running in ${process.env.NODE_ENV} mode on port ${process.env.SRV_PORT}`)
     );
   }
 
