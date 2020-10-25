@@ -13,7 +13,7 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "node bin/server.js",
-    "dev": "nodemon bin/server.js"
+    "start": "node bin/app.js",
+    "dev": "nodemon bin/app.js"
   }
 }
